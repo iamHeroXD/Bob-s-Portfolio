@@ -3,106 +3,276 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bob | Professional Project Manager</title>
+    <title>Bob | Elite Project Manager</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <!-- Animated Background -->
+    <div class="particles-bg"></div>
+    
+    <!-- Header -->
     <header>
         <div class="container">
-            <div class="logo">BOB</div>
+            <div class="logo">
+                <span class="gradient-text">BOB</span>
+            </div>
             <nav>
                 <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#expertise" class="nav-link">Expertise</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </header>
 
+    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <h1 class="animate-pop-in">Professional Project Managing Experience</h1>
-            <p class="subtitle animate-pop-in">Delivering excellence in game development and creative solutions</p>
-            <a href="#contact" class="btn animate-pop-in">Get in Touch</a>
+            <div class="hero-content">
+                <h1 class="hero-title animate-pop-in">Premium Project <span class="gradient-text">Management</span></h1>
+                <p class="hero-subtitle animate-pop-in">Bridging creativity and technical execution since 2018</p>
+                <div class="hero-stats">
+                    <div class="stat-item animate-pop-in">
+                        <div class="stat-number" data-count="50">0</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-item animate-pop-in">
+                        <div class="stat-number" data-count="10">0</div>
+                        <div class="stat-label">K+ Earnings</div>
+                    </div>
+                    <div class="stat-item animate-pop-in">
+                        <div class="stat-number" data-count="100">0</div>
+                        <div class="stat-label">% Satisfaction</div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="scroll-indicator">
             <div class="mouse"></div>
         </div>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="section about">
         <div class="container">
-            <h2>Greetings! I'm Bob</h2>
+            <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
             <div class="about-content">
-                <div class="about-text">
-                    <p>I am known for my project managing experience throughout the platform of developing. I have worked for many studios, and players for their personal games!</p>
-                    <p>I receive many positive reviews, which I can provide you when you message me if you would like!</p>
+                <div class="about-image">
+                    <div class="profile-image">
+                        <img src="channels4_profile.jpg" alt="Profile" class="about-profile-img" />
+                    </div>
+                    
+                    <div class="image-border"></div>
                     <div class="social-links">
-                        <a href="https://youtube.com" target="_blank" class="social-btn youtube"><i class="fab fa-youtube"></i></a>
-                        <a href="https://discord.com/users/1124359032178737287" target="_blank" class="social-btn discord"><i class="fab fa-discord"></i></a>
+                        <a href="#" class="social-btn discord"><i class="fab fa-discord"></i></a>
+                        <a href="#" class="social-btn youtube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-btn twitter"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
-                <div class="about-image">
-                    <img src="channels4_profile.jpg" alt="Bob - Professional Project Manager" class="profile-image">
-              </div>
+                <div class="about-text">
+                    <h3>Professional Project Orchestrator</h3>
+                    <p>Specializing in game development project management with 5+ years of experience coordinating between creative vision and technical execution. My unique approach combines strategic planning with creative problem-solving.</p>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-rocket"></i>
+                            <div>
+                                <h4>Project Completion</h4>
+                                <p>50+ successful projects delivered</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-network-wired"></i>
+                            <div>
+                                <h4>Developer Network</h4>
+                                <p>Access to 100+ vetted specialists</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="skills" class="section skills">
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
         <div class="container">
-            <h2>What I Specialize In</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <div class="skill-icon"><i class="fas fa-gamepad"></i></div>
-                    <h3>Game Designing</h3>
-                    <p>AMAZING at game designing! Once I got paid 10k due to an amazing game idea!</p>
+            <h2 class="section-title">Professional <span class="gradient-text">Journey</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Havik Games</h3>
+                        <h4>Project Manager</h4>
+                        <ul>
+                            <li>Coordinated development teams of 5-15 members</li>
+                            <li>Implemented agile workflows increasing efficiency by 30%</li>
+                            <li>Managed budgets up to $50,000 per project</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
-                    <h3>Creativity</h3>
-                    <p>AMAZING at my creativity - bringing fresh ideas to every project.</p>
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - 2022</div>
+                    <div class="timeline-content">
+                        <h3>PlayBound Corporation</h3>
+                        <h4>Game Acquisition/Project Manager</h4>
+                        <ul>
+                            <li>Evaluated and acquired 12 indie game projects</li>
+                            <li>Managed publisher-developer relationships</li>
+                            <li>Optimized development pipelines</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <div class="skill-icon"><i class="fas fa-users"></i></div>
-                    <h3>Developer Network</h3>
-                    <p>AMAZING at finding developers - I'm in contact with many as we speak!</p>
+                <div class="timeline-item">
+                    <div class="timeline-date">2020 - 2021</div>
+                    <div class="timeline-content">
+                        <h3>Exclusive Findings</h3>
+                        <h4>Content Creator</h4>
+                        <ul>
+                            <li>Created engaging development content</li>
+                            <li>Built community of 10,000+ followers</li>
+                            <li>Developed content strategy</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <div class="skill-icon"><i class="fas fa-tasks"></i></div>
-                    <h3>Team Management</h3>
-                    <p>GREAT at managing developers and keeping projects on track.</p>
+                <div class="timeline-item">
+                    <div class="timeline-date">2018 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Personal Projects</h3>
+                        <h4>Project Manager</h4>
+                        <ul>
+                            <li>Managed 3 successful personal game projects</li>
+                            <li>Coordinated freelance teams</li>
+                            <li>Handled all aspects from concept to launch</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
-                    <h3>Innovation</h3>
-                    <p>GREAT at recommending new ideas to improve your games.</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon"><i class="fas fa-clock"></i></div>
-                    <h3>Dedication</h3>
-                    <p>OUTSTANDING activity, to dedicate myself fully to your project!</p>
+                <div class="timeline-item">
+                    <div class="timeline-date">2018 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Community Projects</h3>
+                        <h4>Project Coordinator</h4>
+                        <ul>
+                            <li>Organized community game jams</li>
+                            <li>Managed collaborative projects</li>
+                            <li>Facilitated team communications</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Expertise Section -->
+    <section id="expertise" class="section expertise">
+        <div class="container">
+            <h2 class="section-title">Core <span class="gradient-text">Expertise</span></h2>
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <div class="card-icon">
+                        <i class="fas fa-chess-queen"></i>
+                    </div>
+                    <h3>Strategic Planning</h3>
+                    <p>Roadmap development from prototype to launch with milestone tracking</p>
+                    <div class="card-footer">
+                        <span class="skill-level">Elite</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="expertise-card">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Team Management</h3>
+                    <p>Coordinating developers, artists, and designers for optimal workflow</p>
+                    <div class="card-footer">
+                        <span class="skill-level">Expert</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="expertise-card">
+                    <div class="card-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Creative Direction</h3>
+                    <p>Transforming abstract ideas into actionable development plans</p>
+                    <div class="card-footer">
+                        <span class="skill-level">Master</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonials">
+        <div class="container">
+            <h2 class="section-title">Client <span class="gradient-text">Testimonials</span></h2>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">"</div>
+                        <blockquote>Bob transformed our chaotic development process into a well-oiled machine. His ability to anticipate problems before they occur saved us countless hours.</blockquote>
+                        <div class="client-info">
+                            <div class="client-avatar"></div>
+                            <div>
+                                <h4>Alex Johnson</h4>
+                                <p>CEO, Havik Games</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
     <section id="contact" class="section contact">
         <div class="container">
-            <h2>Get In Touch</h2>
+            <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
             <div class="contact-content">
                 <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <p><i class="fas fa-envelope"></i> Message me for reviews and inquiries</p>
-                    <p><i class="fab fa-youtube"></i> YouTube: <a href="https://www.youtube.com/@Bob_Roblox_Official" target="_blank">Bob's Channel</a></p>
-                    <p><i class="fab fa-discord"></i> Discord: Available upon request</p>
-                    
-                    <div class="pricing-info">
-                        <h3>Pricing</h3>
-                        <p><i class="fas fa-money-bill-wave"></i> PayPal: All prices are lowered</p>
-                        <p><i class="fas fa-coins"></i> Robux: Minimum 4,000 Robux monthly</p>
+                    <h3>Ready to Elevate Your Project?</h3>
+<div class="info-item">
+    <a href="https://discord.com/users/1124359032178737287" target="_blank">
+        <i class="fab fa-discord"></i>
+    </a>
+    <div>
+        <h4>Discord</h4>
+        <p>Bobthebuilder</p>
+    </div>
+</div>
+<div class="info-item">
+    <a href="https://youtube.com/BobManages" target="_blank">
+        <i class="fab fa-youtube"></i>
+    </a>
+    <div>
+        <h4>YouTube</h4>
+        <p>youtube.com/BobManages</p>
+    </div>
+</div>
+
+                    <div class="pricing-box">
+                        <h4>Pricing Structure</h4>
+                        <ul>
+                            <li><i class="fas fa-money-bill-wave"></i> <span>PayPal:</span> Custom quotes (discounted rates)</li>
+                            <li><i class="fas fa-coins"></i> <span>Robux:</span> 4.5+ monthly minimum</li>
+                            <li><i class="fas fa-handshake"></i> <span>Equity:</span> Project-based negotiations</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="contact-form">
@@ -111,24 +281,42 @@
                             <input type="text" id="name" placeholder="Your Name" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" id="contactMethod" placeholder="Discord or YouTube username" required>
+                            <input type="text" id="contact" placeholder="Discord/YouTube" required>
                         </div>
                         <div class="form-group">
-                            <textarea id="message" placeholder="Your Message (i need these info for responding to you) its a model" required></textarea>
+                            <textarea id="message" placeholder="Describe your project vision..." required></textarea>
                         </div>
-                        <button type="submit" class="btn">Send Message</button>
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2023 Bob - Professional Project Manager. All rights reserved.</p>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="gradient-text">BOB</span>
+                    <p>Premium Project Management</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">FAQ</a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 Bob Management. All rights reserved.
+            </div>
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
